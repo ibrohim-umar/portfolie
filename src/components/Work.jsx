@@ -1,7 +1,10 @@
 import React from 'react'
 import uch from '../assets/port3img.jpeg'
 import Works from '../assets/working.jpg'
-
+import House from '../assets/housingphoto.jpeg'
+import ikki from '../assets/2portfolie.jpeg'
+import Pizza from '../assets/pizza.jpeg'
+import Ikki from '../assets/ikkirasm.jpeg'
 
 const Work = () => {
   return (
@@ -12,24 +15,24 @@ const Work = () => {
               <p className='py-6' >Check out of my recent work</p>
           </div>
           <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4' >
-              <div style={{backgroundImage: `url(${Works})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+              <div style={{backgroundImage: `url(${House})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
                   <div className='opacity-0 group-hover:opacity-100' >
                       <span className='text-2xl font-bold text-white tracking-wider' >
                          React JS Application
                       </span>
-                      <div>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Demo</button> </a>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Code</button> </a>
+                      <div className='text-center'>
+                          <a href="https://stellar-gingersnap-997863.netlify.app"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Link</button> </a>
+                         
                       </div>
                   </div>
               </div>
-              <div style={{backgroundImage: `url(${uch})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+              <div style={{backgroundImage: `url(${ikki})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
                   <div className='opacity-0 group-hover:opacity-100' >
                       <span className='text-2xl font-bold text-white tracking-wider' >
                          ReactJS
                       </span>
                       <div>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Demo</button> </a>
+                          <a href="https://iridescent-chebakia-ddbd58.netlify.app"> <button className='rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Link</button> </a>
                           
                       </div>
                   </div>
@@ -45,14 +48,24 @@ const Work = () => {
                       </div>
                   </div>
               </div>
-              <div style={{backgroundImage: `url(${Works})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+              <div style={{backgroundImage: `url(${Pizza})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
                   <div className='opacity-0 group-hover:opacity-100' >
                       <span className='text-2xl font-bold text-white tracking-wider' >
                          React JS Application
                       </span>
-                      <div>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Demo</button> </a>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Code</button> </a>
+                      <div className='text-center'>
+                          
+                          <a href="https://splendid-kashata-d64ac1.netlify.app"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Link</button> </a>
+                      </div>
+                  </div>
+              </div>
+              <div style={{backgroundImage: `url(${Ikki})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
+                  <div className='opacity-0 group-hover:opacity-100' >
+                      <span className='text-2xl font-bold text-white tracking-wider' >
+                         React JS Application
+                      </span>
+                      <div className='text-center'>
+                          <a href="https://delightful-unicorn-0b33c6.netlify.app"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Link</button> </a>
                       </div>
                   </div>
               </div>
@@ -61,20 +74,9 @@ const Work = () => {
                       <span className='text-2xl font-bold text-white tracking-wider' >
                          React JS Application
                       </span>
-                      <div>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Demo</button> </a>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Code</button> </a>
-                      </div>
-                  </div>
-              </div>
-              <div style={{backgroundImage: `url(${Works})  ` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
-                  <div className='opacity-0 group-hover:opacity-100' >
-                      <span className='text-2xl font-bold text-white tracking-wider' >
-                         React JS Application
-                      </span>
-                      <div>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Demo</button> </a>
-                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Code</button> </a>
+                      <div className='text-center'>
+                          <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 border-white text-gray-700 font-bold text-lg' >Link</button> </a>
+                          
                       </div>
                   </div>
               </div>
